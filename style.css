@@ -1,0 +1,27 @@
+h2{
+    font-size: 30px !important;
+}
+.btn-success:hover{
+    background-color: blueviolet;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+
+#gradient{ background: linear-gradient(rgb(255, 0, 0) 0%, rgb(234, 255, 0) 90%); }
+
+body{
+    /* Background pattern from Toptal Subtle Patterns */
+    height: 400px;
+    width: 100%;
+    background-image: url("fire.jpg");
+ }
